@@ -1,0 +1,25 @@
+@startuml
+
+ 
+node "JA application environment" {
+   [Site badges]
+   [Site administration application JA]
+  [Application JA]
+} 
+
+
+
+database "MySql" {
+  folder "Site Eglise" {
+	[Badges]
+	[Evenements Locaux]
+  }
+  frame "Site Administration JA" {
+	[Evenements Fédéraux]
+	[Compte JA]
+  }
+  
+}
+
+
+@enduml

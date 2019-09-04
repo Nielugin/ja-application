@@ -16,11 +16,19 @@ export class AppComponent {
       url: '/home',
       icon: 'home'
     },
+
     {
-      title: 'List',
-      url: '/list',
+      title: 'Profile',
+      url: '/profile',
+      icon: 'list'
+    },
+
+    {
+      title: 'Badges',
+      url: '/badges',
       icon: 'list'
     }
+
   ];
 
   constructor(
